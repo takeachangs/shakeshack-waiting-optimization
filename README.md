@@ -1,2 +1,9 @@
-# shakeshack-waiting-optimization
+# tldr
 Optimisation of waiting time at Shake Shack fast food restaurant through application of Queuing Theory
+
+# Introduction
+In 2019 April, Shake Shack, an American fast casual restaurant chain based in New York City finally opened its first outlet in Singapore at Jewel Changi Airport. Shake Shack is one of the titans in the fast-food industry, expanding to more than 70 locations worldwide, including Dubai and South Korea. Since day one of business, snaking queues can be seen outside Shake Shack. Due to the overwhelming anticipation from its debut, queuing has become the major hindrance to trying out Shake Shack. According to the Straits Times, the queue saw an estimated average of 200 people through the day with an average waiting time of 1.5 hours. When it first opened, the first customer had to start queuing about 6 hours in advance.
+
+In a fast-paced country such as Singapore, wasting time on queuing has a huge impact on Singaporeans’ productivity results in a huge loss with such huge waiting times; The customers could be spending the time on more productive activities such as working or studying. Since waiting time of 10 minutes is reasonable for queuing compared to 1.5 hours, this mathematical exploration seeks to optimize the number of counters at Shake Shack so that the average waiting time is 10 minutes and below by modelling the waiting times, queue lengths and idle times of counters.
+
+I will be analyzing the behavior of the queue which is characterized by the arrival process, the service process, the number of servers in the system, the queue discipline, the capacity of the queue, the number of servers in the system, the queueing discipline, the capacity of the queue and the size of the client population. These six parameters are part of a standard system known as Kendall’s notation. After that, Chi Square Goodness of Fit Test will be used to test whether the data follows the Poisson distribution, so that queuing theory can be applied to the collected set of data.
